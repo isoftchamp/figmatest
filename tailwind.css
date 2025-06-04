@@ -1,0 +1,14 @@
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .all-\[unset\] {
+    all: unset;
+  }
+}
+
+:root {
+  --grey-1: rgba(43, 43, 43, 1);
+  --grey-2: rgba(139, 139, 139, 1);
+  --grey-3: rgba(180, 180, 180, 1);
+}
